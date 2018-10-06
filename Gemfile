@@ -1,2 +1,4 @@
 source "https://rubygems.org"
-gemspec
+
+gem "jekll", "~> 3.5"
+gem "minimal-mistakes-jekyll"
