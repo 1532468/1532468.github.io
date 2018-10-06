@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "BCODE's Blog"
-title_separator          : "-"
+title_separator          : "누군가에게 도움이 되길.."
 name                     : "Park, Seonghyeon"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
