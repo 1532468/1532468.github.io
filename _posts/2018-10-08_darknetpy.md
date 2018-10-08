@@ -1,6 +1,6 @@
 ---
 title: "darknetpy"
-categoris:
+categories:
   - blogging
 toc: true
 ---
