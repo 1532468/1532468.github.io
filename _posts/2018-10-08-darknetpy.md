@@ -7,7 +7,7 @@ toc: true
 
 원본 이미지에서 학습된 이미지를 바운딩 박스해준다.
 
-https://pypi.org/project/darknetpy/
+<link>https://pypi.org/project/darknetpy/</link>
 
 
 
@@ -15,7 +15,7 @@ pip install darknetpy
 
 
 
-설치 옵션
+**설치 옵션**
 
 - CUDA 
 
@@ -33,8 +33,7 @@ pip install darknetpy
 
    OPENMP=1 pip install darknetpy
 
-
-python file
+**python file**
 
 ```
 from darknetpy.detector import Detector
@@ -49,8 +48,6 @@ results = detector.detect('<absolute-path-to>/darknet/data/dog.jpg')
 print(results)
 ```
 
-
-
 darknet과 weights 파일을 다운로드 하여야 한다.
 
 ```
@@ -63,7 +60,7 @@ wget https://pjreddie.com/media/files/yolov3.weights
 
 
 
-결과
+**결과**
 
 ```
 [{'right': 194, 'bottom': 353, 'top': 264, 'class': 'dog', 'prob': 0.8198755383491516, 'left': 71}]
