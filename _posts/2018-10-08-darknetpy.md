@@ -33,6 +33,23 @@ pip install darknetpy
 
    OPENMP=1 pip install darknetpy
 
+- darknet과 weights 파일을 다운로드 하여야 한다.
+
+   ```
+   git clone https://github.com/pjreddie/darknet
+   ```
+
+   ```
+   wget https://pjreddie.com/media/files/yolov3.weights
+   ```
+
+   위의 설치 옵션을 Makefile에서 수정할 수도 있습니다. 수정하시면 반드시 make를 해야합니다.
+
+   <figure>
+     <img src="/assets/images/2018-10-08-darknetpy/makefile.png">
+     <figcaption></figcaption>
+   </figure>
+
 **python file**
 
 ```
@@ -48,16 +65,6 @@ results = detector.detect('<absolute-path-to>/darknet/data/dog.jpg')
 print(results)
 ```
 
-darknet과 weights 파일을 다운로드 하여야 한다.
-
-```
-git clone https://github.com/pjreddie/darknet
-```
-
-```
-wget https://pjreddie.com/media/files/yolov3.weights
-```
-
 
 
 **결과**
@@ -65,3 +72,14 @@ wget https://pjreddie.com/media/files/yolov3.weights
 ```
 [{'right': 194, 'bottom': 353, 'top': 264, 'class': 'dog', 'prob': 0.8198755383491516, 'left': 71}]
 ```
+
+
+
+- nvidia-smi
+
+  GPU를 사용하고 있는지 확인할 수 있습니다. 
+
+  <figure>
+    <img src="/assets/images/2018-10-12-mircophone/nvidia-smi.png">
+    <figcaption></figcaption>
+  </figure>
