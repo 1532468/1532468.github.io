@@ -82,7 +82,7 @@ print(results)
   GPU를 사용하고 있는지 확인할 수 있습니다. 
 
   <figure>
-    <img src="/assets/images/2018-10-08-mircophone/nvidia-smi.png">
+    <img src="/assets/images/2018-10-08-darknetpy/nvidia-smi.png">
     <figcaption></figcaption>
   </figure>
 
