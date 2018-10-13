@@ -43,6 +43,8 @@ pip install darknetpy
    wget https://pjreddie.com/media/files/yolov3.weights
    ```
 
+
+
    위의 설치 옵션을 Makefile에서 수정할 수도 있습니다. 수정하시면 반드시 make를 해야합니다.
 
    <figure>
@@ -80,6 +82,7 @@ print(results)
   GPU를 사용하고 있는지 확인할 수 있습니다. 
 
   <figure>
-    <img src="/assets/images/2018-10-12-mircophone/nvidia-smi.png">
+    <img src="/assets/images/2018-10-08-mircophone/nvidia-smi.png">
     <figcaption></figcaption>
   </figure>
+
