@@ -100,13 +100,13 @@ analytics:
 
 
 # Site Author
-#author: BCODE
+author: BCODE
 #_data/authors.yml
 
-sidebar:
-  - title: "Title"
-    text: "Somebody help me"
-    nav: sidebar-sample
+# sidebar:
+#   - title: "Title"
+#     text: "Somebody help me"
+#     nav: sidebar-sample
 
 # Site Footer
 footer:

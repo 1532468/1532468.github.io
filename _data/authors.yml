@@ -3,7 +3,7 @@ BCODE :
   bio       : "For Developers, By Developers"
   avatar    : "/assets/images/header/avatar.jpg"  
   location  : "Republic of Korea"
-  email     : "1532468@naver.com"
+  text      : "1532468@naver.com"
 
   # name             : "B:CODE"
   # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
