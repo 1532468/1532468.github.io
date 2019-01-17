@@ -2,7 +2,6 @@
 title : "Linux Sound Equalizer"
 categories:
   - blogging
-toc: true
 ---
 Ubuntu에서 사용할 수 있는 Equalizer를 소개합니다.
 

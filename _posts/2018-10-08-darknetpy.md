@@ -2,7 +2,6 @@
 title: "darknetpy"
 categories:
   - blogging
-toc: true
 ---
 
 원본 이미지에서 학습된 이미지를 바운딩 박스해준다.

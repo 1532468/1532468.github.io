@@ -2,8 +2,6 @@
 title : "Google Speech API"
 categories:
   - blogging
-toc: true
-
 ---
 
 key를 발급받는 방법은 다양한 블로그에서 확인할 수 있습니다.

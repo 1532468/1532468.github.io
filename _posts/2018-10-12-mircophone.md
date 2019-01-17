@@ -2,13 +2,7 @@
 title : "RaspberryPi mircophone"
 categories:
   - blogging
-toc: true
 ---
-
-
-
-
-
 
 라즈베리파이에서 마이크를 사용하기 위해 몇 가지 설정이 필요합니다.
 
