@@ -103,6 +103,11 @@ analytics:
 author: BCODE
 #_data/authors.yml
 
+sidebar:
+  - Title: "Title"
+    text: "Somebody help me"
+    nav: sidebar
+
 # Site Footer
 footer:
   links:
