@@ -19,3 +19,22 @@ main:
 #    url: /tags/
   - title: "Category"
     url: /categories/
+
+
+sidebar:
+  title: "Test Title"
+  nav : sidebar
+
+sidebar :
+  - title : "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+  - title : "Parent Page B"
+    children:
+      - title: "Child Page B1"
+        url: /
+      - title: "Child Page B2"
+        url: /
