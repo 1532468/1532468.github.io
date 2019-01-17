@@ -1,9 +1,9 @@
 BCODE :
   name      : "B:CODE"
-  bio       : "For Developers, By Developers"
+  bio       : "For Developers\nBy Developers\n\n1532468@naver.com"
   avatar    : "/assets/images/header/avatar.jpg"  
   location  : "Republic of Korea"
-  bio       : "1532468@naver.com"
+
 
   # name             : "B:CODE"
   # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
