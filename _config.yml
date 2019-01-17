@@ -290,4 +290,4 @@ defaults:
       related: true
 
 header:
-  image: /assets/images/test_header_image.jpg
+  image: /assets/images/header/test_header_image.jpg
