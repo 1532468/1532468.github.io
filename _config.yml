@@ -288,3 +288,6 @@ defaults:
       comments: # true
       share: true
       related: true
+
+header:
+  image: /assets/images/test_header_image.jpg
