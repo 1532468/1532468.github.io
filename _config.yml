@@ -289,5 +289,6 @@ defaults:
       share: true
       related: true
 
+excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
 header:
-  image: /assets/images/header/test_header_image.jpg
+  overlay_color: "#333"
