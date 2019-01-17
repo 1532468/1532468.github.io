@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "B:CODE's Blog"
+title                    : "B:CODE의 하찮은 블로그"
 title_separator          : "누군가에게 도움이 되길.."
 name                     : "Park, Seonghyeon"
 description              : "An amazing website."
