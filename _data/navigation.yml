@@ -4,7 +4,7 @@ main:
   - title: "Category"
     url: /categories/
 
-sidebar :
+sidebar-sample :
   - title : "Parent Page A"
     children:
       - title: "Child Page A1"
