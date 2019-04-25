@@ -9,7 +9,7 @@ categories:
 </figure>
 
 <figure>
-  <img src="/assets/images/2019-04-25-MongoDB_Replica/cluster.png">
+  <img src="/assets/images/2019-04-25-MongoDB_Replica/cluster.PNG">
   <figcaption></figcaption>
 </figure>
 
