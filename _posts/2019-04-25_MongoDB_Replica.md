@@ -1,15 +1,15 @@
 ---
-title : "MongoDB Relica"
+title : "MongoDB Replica"
 categories:
   - blogging
 ---
 <figure>
-  <img src="/assets/images/2019-04-25_MongoDB_Replica/logo.png">
+  <img src="/assets/images/2019-04-25-MongoDB_Replica/logo.png">
   <figcaption></figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/images/2019-04-25_MongoDB_Replica/cluster.png">
+  <img src="/assets/images/2019-04-25-MongoDB_Replica/cluster.png">
   <figcaption></figcaption>
 </figure>
 
