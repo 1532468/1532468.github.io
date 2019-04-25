@@ -4,7 +4,7 @@ categories:
   - blogging
 ---
 <figure>
-  <img src="/assets/images/2019-04-25-MongoDB_Replica/logo.png">
+  <img src="/assets/images/2019-04-25-MongoDB_Replica/logo.jpg">
   <figcaption></figcaption>
 </figure>
 
