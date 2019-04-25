@@ -3,7 +3,10 @@ title : "MongoDB Relica"
 categories:
   - blogging
 ---
-
+<figure>
+  <img src="/assets/images/2019-04-25_MongoDB_Replica/logo.png">
+  <figcaption></figcaption>
+</figure>
 
 <figure>
   <img src="/assets/images/2019-04-25_MongoDB_Replica/cluster.png">
