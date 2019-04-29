@@ -1,7 +1,7 @@
 ---
 title : "Hbase count"
 categories:
-  - HBase
+  - blogging
 ---
 
 Hbase에서 count를 할 때, 옵션을 줄 수 있다.
@@ -39,4 +39,4 @@ hbase > count 'table_name', INTERVAL => 1000000, CACHE => 100000
 => 24807513
 ~~~
 
-과유불급
+## `과유불급`
