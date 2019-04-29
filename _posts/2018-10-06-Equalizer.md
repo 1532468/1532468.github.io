@@ -1,7 +1,7 @@
 ---
 title : "Linux Sound Equalizer"
 categories:
-  - linux
+  - Linux
 ---
 Ubuntu에서 사용할 수 있는 Equalizer를 소개합니다.
 
