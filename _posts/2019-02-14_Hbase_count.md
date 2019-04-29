@@ -38,5 +38,3 @@ hbase > count 'table_name', INTERVAL => 1000000, CACHE => 100000
 
 => 24807513
 ~~~
-
-## `과유불급`
