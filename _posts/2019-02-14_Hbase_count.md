@@ -1,8 +1,9 @@
 ---
 title : "Hbase count"
 categories:
-  - HBase
+  - Eco System
 ---
+
 
 Hbase에서 count를 할 때, 옵션을 줄 수 있다.
 
