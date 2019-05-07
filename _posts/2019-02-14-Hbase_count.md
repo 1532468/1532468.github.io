@@ -12,14 +12,16 @@ Hbase에서 count를 할 때, 옵션을 줄 수 있다.
 
 hbase > count 'table_name', INTERVAL => 1000000, CACHE => 1000
 ~~~
-Current count: 1000000, row: row_num                                                
+Current count: 1000000, row: row_num
 Current count: 2000000, row: row_num
-Current count: 3000000, row: row_num 
-Current count: 4000000, row: row_num                                                                        
+Current count: 3000000, row: row_num
+Current count: 4000000, row: row_num
+
 Current count: 21000000, row: row_num
 Current count: 22000000, row: row_num
 Current count: 23000000, row: row_num
-Current count: 24000000, row: row_num                                                                         
+Current count: 24000000, row: row_num
+        
 24807513 row(s) in 697.7710 seconds
 
 => 24807513
