@@ -10,7 +10,7 @@ Hbase에서 count를 할 때, 옵션을 줄 수 있다.
 - CACHE 크기가 클 수록 속도가 빠르다.
 
 
-hbase > count 'table_name', INTERVAL => 1000000, CACHE => 1000
+<!-- hbase > count 'table_name', INTERVAL => 1000000, CACHE => 1000
 ~~~
 Current count: 1000000, row: row_num                                                
 Current count: 2000000, row: row_num
@@ -39,4 +39,4 @@ hbase > count 'table_name', INTERVAL => 1000000, CACHE => 100000
 => 24807513
 ~~~
 
-과유불급
+과유불급 -->
