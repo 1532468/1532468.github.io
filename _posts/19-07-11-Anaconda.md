@@ -5,12 +5,13 @@ categories:
 ---
 Anaconda 가상환경과 jupyterlab을 만들어 봅시다.
 
-<!-- <figure>
+<figure>
   <img src="/assets/images/2019-07-11-Anaconda/logo.png">
   <figcaption></figcaption>
-</figure> -->
+</figure>
 
 - Anaconda 설치
+
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 
