@@ -3,10 +3,10 @@ title : "Anaconda 환경 만들기"
 categories:
   - Linux
 ---
-<figure>
+<!-- <figure>
   <img src="/assets/images/2019-07-11-Anaconda/logo.png">
   <figcaption></figcaption>
-</figure>
+</figure> -->
 
 
 - Anaconda 설치
