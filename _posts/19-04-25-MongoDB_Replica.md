@@ -16,6 +16,7 @@ categories:
 1. config
 
 server #2
+
 ~~~
 sudo mongod --configsvr --replSet config --bind_ip 192.168.0.2 --port 10000 --fork \
 --dbpath /data/mongodb/configdb --logpath /data/mongodb/logs/config.log
@@ -23,12 +24,14 @@ sudo mongod --configsvr --replSet config --bind_ip 192.168.0.2 --port 10000 --fo
 
 
 server #3
+
 ~~~
 sudo mongod --configsvr --replSet config --bind_ip 192.168.0.3 --port 10000 --fork \
 --dbpath /data/mongodb/configdb --logpath /data/mongodb/logs/config.log
 ~~~
 
 server #4
+
 ~~~
 sudo mongod --configsvr --replSet config --bind_ip 192.168.0.4 --port 10000 --fork \
 --dbpath /data/mongodb/configdb --logpath /data/mongodb/logs/config.log
@@ -36,9 +39,11 @@ sudo mongod --configsvr --replSet config --bind_ip 192.168.0.4 --port 10000 --fo
 
 
 server #2
+
 ~~~
 mongo --host 192.168.0.1 --port 10000
 ~~~
+
 ~~~
 var config = {
 
@@ -66,21 +71,25 @@ sudo mongod --replSet RS_1 --shardsvr --bind_ip 192.168.0.2 --port 20001 --fork 
 ~~~
 
 server #3
+
 ~~~
 sudo mongod --replSet RS_1 --shardsvr --bind_ip 192.168.0.3 --port 20001 --fork \
 --dbpath /data/mongodb/replica/replica_1 --logpath /data/mongodb/logs/replica_1.log
 ~~~
 
 server #4
+
 ~~~
 sudo mongod --replSet RS_1 --shardsvr --bind_ip 192.168.0.4 --port 20001 --fork \
 --dbpath /data/mongodb/replica/replica_1 --logpath /data/mongodb/logs/replica_1.log
 ~~~
 
 server #2
+
 ~~~
 mongo --host 192.168.0.2 --port 20001
 ~~~
+
 ~~~
 var config={_id:'RS_1', 
 members:[
@@ -103,21 +112,25 @@ sudo mongod --replSet RS_2 --shardsvr --bind_ip 192.168.0.2 --port 20002 --fork 
 ~~~
 
 server #3
+
 ~~~
 sudo mongod --replSet RS_2 --shardsvr --bind_ip 192.168.0.3 --port 20002 --fork \
 --dbpath /data/mongodb/replica/replica_1 --logpath /data/mongodb/logs/replica_2.log
 ~~~
 
 server #4
+
 ~~~
 sudo mongod --replSet RS_2 --shardsvr --bind_ip 192.168.0.4 --port 20002 --fork \
 --dbpath /data/mongodb/replica/replica_1 --logpath /data/mongodb/logs/replica_2.log
 ~~~
 
 server #3
+
 ~~~
 mongo --host 192.168.0.3 --port 20002
 ~~~
+
 ~~~
 var config={_id:'RS_2', 
 members:[
@@ -133,27 +146,32 @@ rs.initiate(config)
 
 
 server #2
+
 ~~~
 sudo mongod --replSet RS_2 --shardsvr --bind_ip 192.168.0.2 --port 20003 --fork \
 --dbpath /data/mongodb/replica/replica_1 --logpath /data/mongodb/logs/replica_2.log
 ~~~
 
 server #3
+
 ~~~
 sudo mongod --replSet RS_2 --shardsvr --bind_ip 192.168.0.3 --port 20003 --fork \
 --dbpath /data/mongodb/replica/replica_1 --logpath /data/mongodb/logs/replica_2.log
 ~~~
 
 server #4
+
 ~~~
 sudo mongod --replSet RS_2 --shardsvr --bind_ip 192.168.0.4 --port 20003 --fork \
 --dbpath /data/mongodb/replica/replica_1 --logpath /data/mongodb/logs/replica_2.log
 ~~~
 
 server #4
+
 ~~~
 mongo --host 192.168.0.3 --port 20003
 ~~~
+
 ~~~
 var config={_id:'RS_3', 
 members:[
@@ -171,35 +189,43 @@ rs.initiate(config)
 sudo mongod --replSet RS_1 --bind_ip 192.168.0.1 --port 30001 --fork \
 --dbpath /data/mongodb/arbiter/shard01 --logpath /data/mongodb/logs/arbiter_1.log
 ~~~
+
 ~~~
 sudo mongod --replSet RS_2 --bind_ip 192.168.0.1 --port 30002 --fork \
 --dbpath /data/mongodb/arbiter/shard02 --logpath /data/mongodb/logs/arbiter_2.log
 ~~~
+
 ~~~
 sudo mongod --replSet RS_3 --bind_ip 192.168.0.1 --port 30003 --fork \
 --dbpath /data/mongodb/arbiter/shard03 --logpath /data/mongodb/logs/arbiter_3.log
 ~~~
 
 server #2
+
 ~~~
 mongo --host 192.168.2 --port 20001
 ~~~
+
 ~~~
 rs.addArb("192.168.0.1:30001")
 ~~~
 
 server #3
+
 ~~~
 mongo --host 192.168.3 --port 20002
 ~~~
+
 ~~~
 rs.addArb("192.168.0.1:30002")
 ~~~
 
 server #4
+
 ~~~
 mongo --host 192.168.4 --port 20003
 ~~~
+
 ~~~
 rs.addArb("192.168.0.1:30003")
 ~~~
@@ -207,14 +233,17 @@ rs.addArb("192.168.0.1:30003")
 4. mongos
 
 server #1
+
 ~~~
 sudo mongos --bind_ip 192.168.0.1 --port 50000 --fork \
 --configdb config/192.168.0.2:10000, 192.168.0.3:10000, 192.168.0.4:10000 \
 --logpath /data/mongodb/logs/mongos.log
 ~~~
+
 ~~~
 mongo --host 192.168.0.1 --port 50000
 ~~~
+
 ~~~
 use admin
 sh.addShard("RS_1/192.168.0.2:30001,192.168.0.3:30001,192.168.0.4:30001")
