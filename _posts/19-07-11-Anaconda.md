@@ -1,5 +1,5 @@
 ---
-title : "Anaconda 환경 만들기"
+title : "Anaconda"
 categories:
   - Linux
 ---
@@ -8,6 +8,7 @@ categories:
   <figcaption></figcaption>
 </figure> -->
 
+Anaconda 가상환경과 jupyterlab을 만들어 봅시다
 
 - Anaconda 설치
 ~~~
