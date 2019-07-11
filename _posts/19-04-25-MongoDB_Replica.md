@@ -3,6 +3,8 @@ title : "MongoDB Replica"
 categories:
   - MongoDB
 ---
+MongoDB Sharding과 Replica를 해 봅시다.
+
 <figure>
   <img src="/assets/images/2019-04-25-MongoDB_Replica/logo.jpg">
   <figcaption></figcaption>
