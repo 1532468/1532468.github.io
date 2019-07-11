@@ -19,18 +19,23 @@ bash ./Anaconda3-2019.03-Linux-x86_64.sh
 ```
 
 - conda env
+
 ```
 > conda create -n test_env python=3.7
 
 > conda activate test_env 
 ```
+
 - kernel
+
 ```
 > conda install -y -c conda-forge jupyterlab ipykernel
 
 > python -m ipykernel install --user --name test_env --display-name "TEST_Kernel"
 ```
+
 - 실행
+
 ```
 > nohup jupyter-lab \
 --no-browser \
