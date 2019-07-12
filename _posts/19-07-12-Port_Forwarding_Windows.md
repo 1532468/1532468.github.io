@@ -3,6 +3,7 @@ title : "Windows Port Forwarding"
 categories:
   - Linux
 ---
+Windows에서 포트포워딩을 해 봅시다.
 
 cmd창을 관리자 권한으로 실행
 
