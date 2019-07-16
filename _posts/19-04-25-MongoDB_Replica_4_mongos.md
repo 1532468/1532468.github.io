@@ -1,5 +1,5 @@
 ---
-title : "MongoDB Replica (4) mongos"
+title : "[MongoDB Replica]-4 mongos"
 categories:
   - MongoDB
 ---

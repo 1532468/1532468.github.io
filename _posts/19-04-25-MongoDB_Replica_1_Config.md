@@ -1,5 +1,5 @@
 ---
-title : "MongoDB Replica Config"
+title : "[MongoDB Replica]-1 Config"
 categories:
   - MongoDB
 ---

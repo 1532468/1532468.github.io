@@ -1,5 +1,5 @@
 ---
-title : "MongoDB Replica Arbiter"
+title : "[MongoDB Replica]-3 Arbiter"
 categories:
   - MongoDB
 ---

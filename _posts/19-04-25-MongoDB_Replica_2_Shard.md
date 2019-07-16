@@ -1,5 +1,5 @@
 ---
-title : "MongoDB Replica Shard & Replica"
+title : "[MongoDB Replica]-2 Shard & Replica"
 categories:
   - MongoDB
 ---
