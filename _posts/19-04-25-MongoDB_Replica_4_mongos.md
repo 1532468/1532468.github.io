@@ -1,5 +1,5 @@
 ---
-title : "MongoDB Replica"
+title : "MongoDB Replica (4) mongos"
 categories:
   - MongoDB
 ---
@@ -27,6 +27,8 @@ mongos 설정
   --logpath /data/mongodb/logs/mongos.log
   ~~~
 
+- mongo 접속
+
   ~~~
   mongo --host 192.168.0.1 --port 50000
   ~~~
@@ -38,9 +40,9 @@ mongos 설정
   sh.addShard("RS_3/192.168.0.2:30003,192.168.0.3:30003,192.168.0.4:30003")
   ~~~
 
-5. shard \
+5. shard
 
-모든 서버 작업은 끝이 났다. 마지막으로 shard key를 설정하면 된다.
+    모든 서버 작업은 끝이 났다. 마지막으로 shard key를 설정하면 된다.
 
     ~~~
     use admin
