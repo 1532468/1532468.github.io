@@ -1,7 +1,7 @@
 ---
-title : "Algorithm Site 만들기"
+title : "[Algorithm Site 만들기]-1 Flask Start"
 categories:
-  - Linux
+  - bucket
 ---
 
 Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자.
