@@ -34,12 +34,13 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
 
 3. HTML 파일 적용
 
-    Flask는 templates에서 템플릿을 찾아 HTML페이지를 생성한다.\
+    Flask는 templates에서 템플릿을 찾아 HTML페이지를 생성한다.
+    
     결국 html문법은 조금 알아야겠다.
 
-    ~~~html
     templates/index.html
-
+    
+    ~~~html
     <!DOCTYPE HTML>
 
     <html>
@@ -75,7 +76,8 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
 
 5. css 적용하기
 
-    많은 블로그를 찾아보니 css파일을 static폴더에 저장을 한다.\
+    많은 블로그를 찾아보니 css파일을 static폴더에 저장을 한다.
+    
     static/style.css
 
     ~~~css  
