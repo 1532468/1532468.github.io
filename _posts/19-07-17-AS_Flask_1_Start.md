@@ -16,7 +16,7 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
 
     main.py
 
-    ~~~Python
+    ~~~python
     from flask import Flask
     app = Flask(__name__)
 
@@ -56,7 +56,7 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
 
     main.py
 
-    ~~~Python
+    ~~~python
     from flask import Flask, render_template
 
     app = Flask(__name__)
