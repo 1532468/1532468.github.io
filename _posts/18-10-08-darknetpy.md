@@ -53,7 +53,7 @@ pip install darknetpy
 
 **python file**
 
-```
+```python
 from darknetpy.detector import Detector
 
 detector = Detector('<absolute-path-to>/darknet',

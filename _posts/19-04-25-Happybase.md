@@ -25,7 +25,7 @@ hbase-daemon.sh start thrift -p 9090
 ```
 
 
-```
+```python
 import happybase
 connection = happybase.Connection('192.168.0.25', 9090)
 print(connection.tables())
@@ -40,7 +40,7 @@ scan
 ```
 https://happybase.readthedocs.io/en/latest/
 
-```
+```python
 import happybase
 import time
 from time import sleep
