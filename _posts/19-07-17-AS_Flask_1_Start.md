@@ -41,7 +41,6 @@ templates/index.html
 
 ~~~html
 <!DOCTYPE HTML>
-
 <html>
     <head>
         <title>B:CODE</title>
@@ -82,7 +81,7 @@ static/css/style.css
 ~~~css  
 h1{
     color:blue;
-    background-color:gray
+    background-color:gray;
 }
 ~~~
 
@@ -93,7 +92,7 @@ h1{
 <html>
     <head>
         <title>B:CODE</title>
-        <link rel="stylesheet" type="text/css" href="{{% url_for('static', filename='css/style.css') %}}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
     </head>
     <body>
         <h1>Hello World!</h1>
