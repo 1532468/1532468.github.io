@@ -22,5 +22,5 @@ cmd창을 관리자 권한으로 실행
 - 삭제
 
     ~~~
-    netsh interface portproxy delete v4tov4 listenport=3331 listenaddress=0.0.0.0
+    netsh interface portproxy delete v4tov4 listenport=1022 listenaddress=0.0.0.0
     ~~~
