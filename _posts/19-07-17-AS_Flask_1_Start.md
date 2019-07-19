@@ -77,7 +77,7 @@ if __name__ == '__main__' :
 
 많은 블로그를 찾아보니 css파일을 static폴더에 저장을 한다.
 
-static/style.css
+static/css/style.css
 
 ~~~css  
 h1{
@@ -88,17 +88,24 @@ h1{
 
 ## 6. css파일 링크
 
-```html
+~~~html
 <!DOCTYPE HTML>
 <html>
     <head>
         <title>B:CODE</title>
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+        <link rel="stylesheet" type="text/css" href="`{{ url_for('static', filename='css/style.css') }}`" />
     </head>
     <body>
         <h1>Hello World!</h1>
     </body>
 </html>
-```
+~~~
+
+* css파일을 수정하고 다시 적용시키면 적용이 되지 않는다.
+
+    참고사이트
+
+    https://stackoverflow.com/questions/21714653/flask-css-not-updating
+
 
 한 번 만들고 싶은 알고리즘 사이트.. 언젠가는 만들겠지.. 화이팅!
