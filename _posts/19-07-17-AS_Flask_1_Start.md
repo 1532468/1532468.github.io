@@ -93,7 +93,7 @@ h1{
 <html>
     <head>
         <title>B:CODE</title>
-        <link rel="stylesheet" type="text/css" href="{{{ url_for('static', filename='css/style.css') }}}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
     </head>
     <body>
         <h1>Hello World!</h1>
@@ -105,7 +105,7 @@ h1{
 
     참고사이트
 
-    https://stackoverflow.com/questions/21714653/flask-css-not-updating
+    <https://stackoverflow.com/questions/21714653/flask-css-not-updating>
 
 
 한 번 만들고 싶은 알고리즘 사이트.. 언젠가는 만들겠지.. 화이팅!
