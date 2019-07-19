@@ -6,13 +6,13 @@ categories:
 
 Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자.
 
-1. Flask 설치
+## 1. Flask 설치
 
     ~~~
     conda install -y -c conda-forge flask
     ~~~
 
-2. Hello World!
+## 2. Hello World!
 
     main.py
 
@@ -32,7 +32,7 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
     python main.py
     ~~~
 
-3. HTML 파일 적용
+## 3. HTML 파일 적용
 
     Flask는 templates에서 템플릿을 찾아 HTML페이지를 생성한다.
     
@@ -53,7 +53,7 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
     </html>
     ~~~
 
-4. Flask에서 호출
+## 4. Flask에서 호출
 
     main.py
 
@@ -74,7 +74,7 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
         app.run(host="0.0.0.0", port=5000)
     ~~~
 
-5. css 적용하기
+## 5. css 적용하기
 
     많은 블로그를 찾아보니 css파일을 static폴더에 저장을 한다.
     
@@ -87,11 +87,10 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
     }
     ~~~
 
-6. css파일 링크
+## 6. css파일 링크
 
-    ~~~html
+    ```html
     <!DOCTYPE HTML>
-
     <html>
         <head>
             <title>B:CODE</title>
@@ -101,6 +100,6 @@ Apache 이딴 거 하기 싫어서 Flask를 이용하여 웹을 만들어 보자
             <h1>Hello World!</h1>
         </body>
     </html>
-    ~~~
+    ```
 
 한 번 만들고 싶은 알고리즘 사이트.. 언젠가는 만들겠지.. 화이팅!
