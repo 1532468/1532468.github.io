@@ -109,3 +109,9 @@ client.html
 </body>
 </html>
 ~~~
+<figure>
+  <img src="/assets/images/2019-07-29-Flask_2_Socket/chat.png">
+  <figcaption>채팅화면</figcaption>
+</figure>
+
+
