@@ -10,7 +10,7 @@ Anaconda 가상환경과 jupyterlab을 만들어 봅시다.
   <figcaption></figcaption>
 </figure>
 
-- Anaconda 설치
+## Step 1: Anaconda 다운로드
 
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
@@ -18,7 +18,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 bash ./Anaconda3-2019.03-Linux-x86_64.sh
 ```
 
-- conda env
+## Step 2: conda env 생성
 
 ```
 > conda create -n test_env python=3.7
@@ -26,7 +26,7 @@ bash ./Anaconda3-2019.03-Linux-x86_64.sh
 > conda activate test_env 
 ```
 
-- kernel
+## Step 3: kernel 생성
 
 ```
 > conda install -y -c conda-forge jupyterlab ipykernel
@@ -34,7 +34,7 @@ bash ./Anaconda3-2019.03-Linux-x86_64.sh
 > python -m ipykernel install --user --name test_env --display-name "TEST_Kernel"
 ```
 
-- 실행
+## Step 4: 실행
 
 ```
 > nohup jupyter-lab \
