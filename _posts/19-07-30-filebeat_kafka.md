@@ -61,6 +61,7 @@ tar xzvf filebeat-7.2.0-linux-x86_64.tar.gz
 ~~~
 
 - vi filebeat.yml
+
 ~~~
 filebeat.inputs:
 - type: log
@@ -82,6 +83,7 @@ output.kafka:
 ~~~
 
 - 실행
+
 ~~~
 ./filebeat -e
 ~~~
