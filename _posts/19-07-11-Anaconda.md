@@ -1,5 +1,5 @@
 ---
-title : "Anaconda"
+title : "[Data Infra] Anaconda install"
 categories:
   - Data Infra
 ---

@@ -1,5 +1,5 @@
 ---
-title : "Airflow Install"
+title : "[Data Infra] Airflow install"
 categories:
   - Data Infra
 ---
