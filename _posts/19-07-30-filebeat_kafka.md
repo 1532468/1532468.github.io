@@ -1,7 +1,7 @@
 ---
 title : "[Data Infra] filebeat kafka 연동"
 categories:
-  - eco system
+  - Data Infra
 ---
 
 오랜만에 흥미를 끌 만한 것을 해 보았다.

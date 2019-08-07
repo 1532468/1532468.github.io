@@ -1,7 +1,7 @@
 ---
 title : "[Eco System] Python Happybase"
 categories:
-  - Hbase
+  - Eco System
 ---
 <figure>
   <img src="/assets/images/2019-04-25-Happybase/hbase.png">
