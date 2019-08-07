@@ -1,5 +1,5 @@
 ---
-title : "Linux Sound Equalizer"
+title : "[Linux] Linux Sound Equalizer"
 categories:
   - Linux
 ---

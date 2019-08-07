@@ -1,5 +1,5 @@
 ---
-title : "Linux LVM Extend"
+title : "[Linux] Linux LVM Extend"
 categories:
   - Linux
 ---
