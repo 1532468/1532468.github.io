@@ -1,7 +1,7 @@
 ---
 title : "Anaconda"
 categories:
-  - Data infra
+  - Data Infra
 ---
 Anaconda 가상환경과 jupyterlab을 만들어 봅시다.
 
